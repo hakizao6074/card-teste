@@ -21,16 +21,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background:linear-gradient(rgba(15, 118, 136, 0.39), rgba(11, 115, 163, 0.055)), url(./imgs/cnavas.webp);
-    background-position:center;
-    background-size: cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.705), rgba(238, 238, 238, 0.473));
     width: 280px;
     height: 400px;
     padding: 15px;
     gap: 15px;
     border: solid 4px;
     border-radius: 30px;
-    border-color: rgba(0, 255, 242, 0.568);
+    border-color: rgba(255, 255, 255, 0.452);
 }
 
 
@@ -45,11 +43,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    background: rgba(0, 0, 0, 0.116);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.185);
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.514);    border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     
 }
@@ -104,6 +98,7 @@ body {
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
+    overflow: hidden;
     img {
         height: 100px;
         transition: 1s all;
@@ -126,7 +121,7 @@ body {
     width: 100%;
     border-radius: 20px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.116);
+    background: rgba(0, 0, 0, 0.514);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.185);
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
