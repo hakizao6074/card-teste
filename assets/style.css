@@ -11,7 +11,9 @@ body {
     justify-content: center;
     width: 100%;
     height: 1000px;
-    background-color: black;
+    background-image: url("./imgs/pexels-buxteh-30221614.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .Block-1 {
@@ -19,26 +21,118 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(44, 145, 233);
-    width: 250px;
+    background:linear-gradient(rgba(15, 118, 136, 0.39), rgba(11, 115, 163, 0.055)), url(./imgs/cnavas.webp);
+    background-position:center;
+    background-size: cover;
+    width: 280px;
     height: 400px;
     padding: 15px;
+    gap: 15px;
+    border: solid 4px;
     border-radius: 30px;
-    gap: 10px;
+    border-color: rgba(0, 255, 242, 0.568);
 }
 
+
+
 .banner {
-    background-image: url("./imgs/design-de-grade-arte-digital-colorida-com-cores-vibrantes-formas-geometricas-e-padroes-abstratos_1238807-2100.avif");
     background-position: center;
     background-size: cover;
-    height: 40%;
-    border-radius: 30px;
+    height: 45%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.116);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.185);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.banner-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+
+    img {
+        height: 90px;
+        width: 90px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+
+    .name {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        background-color: aqua;
+        width: 50%;
+        height: 30px;
+        border-radius: 30px;
+        transition: 2s all;
+        cursor: pointer;
+        padding: 5px;
+        h2 {
+            font-size: 15px;
+            font-weight: 200;
+            font-style: normal;
+        }
+    }
+
+    .name:hover {
+        transform: scale(1.1);
+        background: linear-gradient(rgb(0, 217, 255), rgb(1, 174, 255));
+    }
+    
+}
+.banner-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    img {
+        height: 100px;
+        transition: 1s all;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    .stacks {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .conteudo {
-    background-color: rgb(255, 255, 255);
-    height: 55%;
+    height: 65%;
     width: 100%;
     border-radius: 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.116);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.185);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
